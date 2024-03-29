@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine">
+      <UniqueIdentifier>{f01cf66a-f356-4e25-ad6e-5f99c70820b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Graphics">
+      <UniqueIdentifier>{4f6549fe-b460-4af4-a933-e611abf2fa40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Graphics\Buffer">
+      <UniqueIdentifier>{fc8ac596-0e11-4765-980f-db46509f5ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Graphics\Shader">
+      <UniqueIdentifier>{71a1b07d-a355-40a5-9cee-bdce4b98b813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Content">
+      <UniqueIdentifier>{3fffc0cb-609a-4860-a875-eec8697bda32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Content\Shaders">
+      <UniqueIdentifier>{faf92688-fcfe-40df-b0f8-4133f7373ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Resources">
+      <UniqueIdentifier>{d0148a91-b47a-4a0c-9c59-f8896c029dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Systems">
+      <UniqueIdentifier>{0b46601f-89a0-4799-8d24-4d110fb16f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Systems\Components">
+      <UniqueIdentifier>{56894c16-89b6-4e2b-8f95-269eab76f788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Graphics\Texture">
+      <UniqueIdentifier>{0d5b78a5-8505-4eae-962e-62c763970d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Graphics\Scenes">
+      <UniqueIdentifier>{ac666f2a-1efb-4f19-bece-1bb745b32792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Systems\RenderPipeline">
+      <UniqueIdentifier>{628954cf-45a7-4d5f-b497-39a03ef5fad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Graphics\Materials">
+      <UniqueIdentifier>{c0817657-2220-4580-a9cf-bbe1bc273a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Systems\ECS">
+      <UniqueIdentifier>{680939db-bd50-40cb-bb11-99444b65a1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Inputs">
+      <UniqueIdentifier>{d0aef90d-891a-4b55-9e2c-7a3b94eafee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Debugging">
+      <UniqueIdentifier>{0deda62c-2d79-47c1-bbb7-72fdb3da25d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Graphics\Materials\Geometry">
+      <UniqueIdentifier>{02804234-30c8-4c7f-a1d3-e28445971fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Graphics\Materials\Light">
+      <UniqueIdentifier>{907a0fab-ca04-4565-9700-2ee2f2e22ea1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Fly engine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Buffer\Buffer.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Buffer\VBO.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Buffer\EBO.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Buffer\VAO.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Geometry\Mesh.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Materials\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Shader\Shader.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Resources\AssetPool.cpp">
+      <Filter>Исходные файлы\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Resources\Resource.cpp">
+      <Filter>Исходные файлы\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Resources\ShaderResource.cpp">
+      <Filter>Исходные файлы\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Resources\ResourceDictionary.cpp">
+      <Filter>Исходные файлы\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\Components\Transform.cpp">
+      <Filter>Исходные файлы\Engine\Systems\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Resources\TextureResource.cpp">
+      <Filter>Исходные файлы\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Texture\Texture.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Texture\Texture2D.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scenes\Scene.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scenes\SceneManager.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scenes\MainScene.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\Components\MeshRenderer.cpp">
+      <Filter>Исходные файлы\Engine\Systems\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\RenderPipeline\MeshRendererSystem.cpp">
+      <Filter>Исходные файлы\Engine\Systems\RenderPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Materials\Material.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Materials\StandartMaterial.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\stb\stb.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\Components\Camera.cpp">
+      <Filter>Исходные файлы\Engine\Systems\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\CameraSystem.cpp">
+      <Filter>Исходные файлы\Engine\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Screen.cpp">
+      <Filter>Исходные файлы\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Geometry\MeshUI.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Materials\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Inputs\KeyboardState.cpp">
+      <Filter>Исходные файлы\Engine\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\CameraViewSystem.cpp">
+      <Filter>Исходные файлы\Engine\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\MoveSystem.cpp">
+      <Filter>Исходные файлы\Engine\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\ECS\ecsComponent.cpp">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\ECS\ecsEntity.cpp">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\ECS\ecsEntityManager.cpp">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\ECS\ecsGrowList.cpp">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\ECS\ecsSystem.cpp">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Systems\ECS\ecsEntityList.cpp">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Debugging\Logger.cpp">
+      <Filter>Исходные файлы\Engine\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Materials\Light\Light.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Materials\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Materials\Light\BaseLight.cpp">
+      <Filter>Исходные файлы\Engine\Graphics\Materials\Light</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Graphics\Buffer\Buffer.h">
+      <Filter>Исходные файлы\Engine\Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Buffer\VBO.h">
+      <Filter>Исходные файлы\Engine\Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Buffer\EBO.h">
+      <Filter>Исходные файлы\Engine\Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Buffer\VAO.h">
+      <Filter>Исходные файлы\Engine\Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Geometry\Mesh.h">
+      <Filter>Исходные файлы\Engine\Graphics\Materials\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shader\Shader.h">
+      <Filter>Исходные файлы\Engine\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Resources\AssetPool.h">
+      <Filter>Исходные файлы\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Resources\Resource.h">
+      <Filter>Исходные файлы\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Resources\ShaderResource.h">
+      <Filter>Исходные файлы\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Resources\ResourceDictionary.h">
+      <Filter>Исходные файлы\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\Components\Transform.h">
+      <Filter>Исходные файлы\Engine\Systems\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Resources\TextureResource.h">
+      <Filter>Исходные файлы\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Texture\Texture.h">
+      <Filter>Исходные файлы\Engine\Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Texture\Texture2D.h">
+      <Filter>Исходные файлы\Engine\Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scenes\Scene.h">
+      <Filter>Исходные файлы\Engine\Graphics\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scenes\SceneManager.h">
+      <Filter>Исходные файлы\Engine\Graphics\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scenes\MainScene.h">
+      <Filter>Исходные файлы\Engine\Graphics\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\Components\MeshRenderer.h">
+      <Filter>Исходные файлы\Engine\Systems\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\RenderPipeline\MeshRendererSystem.h">
+      <Filter>Исходные файлы\Engine\Systems\RenderPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Materials\Material.h">
+      <Filter>Исходные файлы\Engine\Graphics\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Materials\StandartMaterial.h">
+      <Filter>Исходные файлы\Engine\Graphics\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\Components\Camera.h">
+      <Filter>Исходные файлы\Engine\Systems\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\CameraSystem.h">
+      <Filter>Исходные файлы\Engine\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Screen.h">
+      <Filter>Исходные файлы\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Geometry\MeshUI.h">
+      <Filter>Исходные файлы\Engine\Graphics\Materials\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Inputs\KeyboardState.h">
+      <Filter>Исходные файлы\Engine\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\CameraViewSystem.h">
+      <Filter>Исходные файлы\Engine\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\MoveSystem.h">
+      <Filter>Исходные файлы\Engine\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\ECS\ECS.h">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\ECS\ecsComponent.h">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\ECS\ecsEntity.h">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\ECS\ecsEntityManager.h">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\ECS\ecsSystem.h">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\ECS\ecsGrowList.h">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Systems\ECS\ecsEntityList.h">
+      <Filter>Исходные файлы\Engine\Systems\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Debugging\ILogger.h">
+      <Filter>Исходные файлы\Engine\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Debugging\Logger.h">
+      <Filter>Исходные файлы\Engine\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Debugging\ConsoleColor.h">
+      <Filter>Исходные файлы\Engine\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Materials\Light\Light.h">
+      <Filter>Исходные файлы\Engine\Graphics\Materials\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Materials\Light\BaseLight.h">
+      <Filter>Исходные файлы\Engine\Graphics\Materials\Light</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Shaders\Shader.frag">
+      <Filter>Исходные файлы\Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\Shader.vert">
+      <Filter>Исходные файлы\Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\TextureShader.frag">
+      <Filter>Исходные файлы\Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\TextureShader.vert">
+      <Filter>Исходные файлы\Content\Shaders</Filter>
+    </None>
+    <None Include="Fly engine.cbp" />
+  </ItemGroup>
+</Project>
